@@ -1,0 +1,19 @@
+# Ignorar node_modules en todas las carpetas
+**/node_modules/
+
+# Ignorar entornos
+.env
+*.env
+
+# Ignorar logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar build si usas React/Vite
+front/build/
+front/dist/
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db

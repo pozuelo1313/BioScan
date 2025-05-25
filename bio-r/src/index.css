@@ -1,0 +1,31 @@
+:root {
+  --color-primary: #4CAF50; /* Verde principal */
+  --color-secondary: #81C784; /* Verde claro */
+  --color-background: #F5F5F5; /* Fondo gris claro */
+  --color-text: #333333; /* Texto oscuro */
+  --color-accent: #FF9800; /* Naranja para acentos */
+  --color-error: #E57373; /* Rojo para errores */
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: var(--color-primary);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
