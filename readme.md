@@ -3,7 +3,7 @@
 BIOSCAN es una aplicación web que permite identificar plantas a partir de imágenes, utilizando una API de inteligencia artificial. Está dividido en dos partes:
 
 - `bio-r/` → Aplicación React (interfaz de usuario)
-- `back/` → Servidor Node.js + Express (manejo de autenticación, conexión a la API, etc.)
+- `backend/` → Servidor Node.js + Express (manejo de autenticación, conexión a la API, etc.)
 
 ---
 
@@ -38,8 +38,8 @@ cd bioscan
 2. Instala las dependencias (raíz + subcarpetas)
 
 npm install          # instala dependencias de la raíz (concurrently)
-cd front && npm install
-cd ../back && npm install
+cd bio-r && npm install
+cd ../backend && npm install
 cd ..
 
 3. Ejecuta la aplicación
