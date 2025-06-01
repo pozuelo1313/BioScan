@@ -2726,12 +2726,6 @@ body {
   animation: errorPulse 0.5s ease-out; /* Animación de App.css */
 }
 
-/* Keyframes (si no están ya en App.css o quieres sobreescribirlos aquí) */
-/* @keyframes floatBackground { ... }  -> Ya debería estar en App.css */
-/* @keyframes float { ... } -> Ya debería estar en App.css */
-/* @keyframes spin { ... } -> Ya debería estar en App.css */
-/* @keyframes fadeInUp { ... } -> Ya debería estar en App.css */
-/* @keyframes errorPulse { ... } -> Ya debería estar en App.css */
 
 
 /* Estilos adicionales para enlaces (ej. "¿Olvidaste tu contraseña?", "Crear cuenta") */
@@ -2754,4 +2748,57 @@ body {
 .login-links span { /* Para separadores entre enlaces */
   color: var(--nature-sage);
   margin: 0 0.5rem;
+}
+
+
+
+
+
+/*estilo selectotres plantcollection*/
+.collection-controls select {
+  background-color: #2a3441;
+  border: 1px solid #4a5568;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  min-width: 150px;
+}
+
+.collection-controls select:hover {
+  border-color: #68d391;
+}
+
+.collection-controls select:focus {
+  border-color: #68d391;
+  box-shadow: 0 0 0 2px rgba(104, 211, 145, 0.2);
+}
+
+.collection-controls select option {
+  background-color: #2a3441;
+  color: white;
+  padding: 8px;
+}
+
+.sort-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.sort-order {
+  background-color: #4a5568;
+  border: 1px solid #68d391;
+  border-radius: 4px;
+  color: white;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sort-order:hover {
+  background-color: #68d391;
+  color: #1a202c;
 }
