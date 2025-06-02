@@ -1,7 +1,6 @@
 import React from 'react';
 import "../App.css";
 
-
 const AboutPage = () => {
   const features = [
     {
@@ -13,11 +12,6 @@ const AboutPage = () => {
       title: "Catálogo Extenso",
       description: "Biblioteca con miles de especies de plantas, actualizada constantemente por expertos botánicos.",
       icon: "📚"
-    },
-    {
-      title: "Accesibilidad Global",
-      description: "Plataforma multilingüe disponible en cualquier dispositivo, en cualquier momento.",
-      icon: "🌍"
     },
     {
       title: "Educación Ambiental",
@@ -36,7 +30,7 @@ const AboutPage = () => {
           </h1>
           <p className="text-lg text-emerald-100 max-w-2xl mx-auto">
             La plataforma que revoluciona la identificación de especies vegetales
-            combinando la pasión por la naturaleza con tecnología de vanguardia.
+            combinando la pasión por la naturaleza con tecnología de vanguardia.<br></br>
           </p>
         </div>
 
@@ -47,11 +41,7 @@ const AboutPage = () => {
               Nuestra Misión
             </h2>
             <p className="text-emerald-100 leading-relaxed">
-              En BioScan, nos dedicamos a hacer que el conocimiento botánico sea
-              accesible para todos. Nuestra plataforma combina la precisión de la
-              inteligencia artificial con una interfaz intuitiva, permitiendo a
-              cualquier persona identificar y aprender sobre el mundo vegetal que
-              nos rodea.
+              En BioScan trabajamos para acercar la botánica al mundo digital. Nuestro objetivo es facilitar la identificación de plantas a través de inteligencia artificial, haciendo que el conocimiento natural esté al alcance de cualquier persona, en cualquier lugar, sin necesidad de formación previa.
             </p>
           </div>
 
@@ -60,11 +50,7 @@ const AboutPage = () => {
               ¿Por qué BioScan?
             </h2>
             <p className="text-emerald-100 leading-relaxed">
-              Nos destacamos por nuestra tecnología de reconocimiento precisa,
-              nuestra extensa base de datos y nuestro compromiso con la educación
-              ambiental. Cada identificación no solo proporciona el nombre de la
-              especie, sino también información detallada sobre su hábitat,
-              cuidados y rol en el ecosistema.
+              Porque simplificamos lo complejo. Solo necesitas una imagen para descubrir el nombre, el entorno, los cuidados y el papel ecológico de cualquier planta. Nuestra plataforma es intuitiva, educativa y pensada para despertar la curiosidad por la naturaleza en usuarios de todas las edades.
             </p>
           </div>
         </div>
