@@ -57,10 +57,6 @@ chatbot con IA
 Registro e inicio de sesión de usuarios
 Historial de identificaciones
 
-🧪 Estado del proyecto
-✅ Funcional
-🚧 Mejoras en diseño en curso
-📱 Optimización móvil pendiente
 
 
 
